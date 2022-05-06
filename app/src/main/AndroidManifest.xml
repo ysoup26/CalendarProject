@@ -10,7 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CalendarProject">
         <activity
-            android:name=".MainActivity"
+            android:name=".MonthViewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
